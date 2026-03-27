@@ -1,0 +1,14 @@
+# AutoGen v0.4+ Ecosystem
+autogen-agentchat~=0.4.0
+autogen-core~=0.4.0
+autogen-ext[docker,openai]~=0.4.0
+
+# Infrastructure & Environment
+python-dotenv
+asyncio
+
+# Data Analysis Stack (Your Specialized Tools)
+pandas
+matplotlib
+openpyxl
+streamlit

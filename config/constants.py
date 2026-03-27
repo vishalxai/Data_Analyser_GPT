@@ -1,0 +1,4 @@
+# config/constants.py
+
+WORK_DIR_DOCKER = 'temp'
+TIMEOUT_DOCKER = 120
