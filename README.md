@@ -38,3 +38,20 @@ To run this project locally on your machine:
    ```bash
    git clone [https://github.com/your-username/autonomous-ai-data-analyst.git](https://github.com/your-username/autonomous-ai-data-analyst.git)
    cd autonomous-ai-data-analyst
+
+* Create a virtual environment:
+   python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+* Install Dependencies:
+pip install -r requirements.txt
+
+* Set up Environment Variables:
+Create a .env file in the root directory and add your API key:
+
+* Run the Streamlit App:
+export PYTHONPATH=.
+streamlit run app.py
+
+☁️ Cloud Deployment
+Built by [vishal singh /https://www.linkedin.com/in/vishalxai/] as a demonstration of autonomous AI agent orchestration.
