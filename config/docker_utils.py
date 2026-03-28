@@ -5,6 +5,7 @@ from .constants import TIMEOUT_DOCKER, WORK_DIR_DOCKER
 def getDockerCommandLineExecutor():
     # Builds the Docker object using our constants
     return DockerCommandLineCodeExecutor(
+        image="python:3-slim",
         work_dir=WORK_DIR_DOCKER,
         timeout=TIMEOUT_DOCKER
     )
