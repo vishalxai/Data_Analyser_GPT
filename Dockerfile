@@ -14,8 +14,8 @@ COPY . .
 # 5. Create the temp directory so the local executor has a place to work
 RUN mkdir -p temp
 
-# 6. Expose the port Streamlit uses
-EXPOSE 8501
+# 6. Expose the port Hugging Face requires
+EXPOSE 7860
 
 # 7. Tell the container how to run your app
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0"]
