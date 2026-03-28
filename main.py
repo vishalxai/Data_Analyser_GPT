@@ -8,7 +8,14 @@ async def main():
     try:
         await start_docker_container(docker_engine)
         
-        user_query = "Create a pandas dataframe with 5 rows of random sales data and plot a line chart."
+        user_query = """
+        Read the dataset 'superstore_data.csv' (it is located in your current directory). 
+        I need you to act as a Business Intelligence Analyst.
+        1. Calculate the total 'Sales' for each 'Region'.
+        2. Plot a bar chart showing the total sales by region. Make it look professional with a title and labels.
+        3. Save the chart directly to the current directory as 'regional_sales.png'.
+        """
+        
         print(f"\n🚀 Starting Task: {user_query}\n")
         
         # Watch the conversation in real-time!
