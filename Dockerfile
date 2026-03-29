@@ -17,5 +17,5 @@ RUN mkdir -p temp
 # 6. Expose the port Hugging Face requires
 EXPOSE 7860
 
-# 7. Tell the container how to run your app
-CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0"]
+# 7. Telling  the container to run my app
+CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0", "--server.enableCORS=false", "--server.enableXsrfProtection=false"]
