@@ -11,6 +11,8 @@ pinned: false
 
 An end-to-end, multi-agent AI system that autonomously analyzes datasets, writes and executes Python code in a secure sandbox, and generates business insights with visual charts.
 
+**🚀 Live Demo:** [Try it on Hugging Face Spaces](https://huggingface.co/spaces/vishalxai/Autonomous-Data-Analyst)
+
 ![App Screenshot](temp/profit_analysis.png)
 
 ## 🧠 System Architecture
